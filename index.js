@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "generate NFT and crypto market content, tips and tricks or something new or some rant or some advice as a tweet, it should not be vague and should be unique; under 280 characters and should be plain text, you can use emojis";
+    "Generate content related to investing in the NFT and cryptocurrency market, news as a tweet, should be unique; less than 280 characters and should be plain text, you can use emoticons; you can share links of other large - more than 10,000 follower profiles on Twitter.";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
